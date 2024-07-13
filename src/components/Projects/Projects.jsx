@@ -11,9 +11,10 @@ import {
 } from "./ProjectStyle";
 import { projects } from "../../data/constant";
 import ProjectCard from "../Cards/ProjectCard";
+
 export default function Projects({ openModal, setOpenModal }) {
   const [toggle, setToggle] = useState("all");
-  const optionToggle = ["all", "react", "js", "html & css"];
+  const optionToggle = ["all", "Next.js", "React", "Js", "html & css"];
   const handleToggle = (option) => {
     setToggle(option);
   };
@@ -32,6 +33,7 @@ export default function Projects({ openModal, setOpenModal }) {
                 {toggle === option ? (
                   <ToggleButton
                     active
+                    key={index}
                     value={option}
                     onClick={() => handleToggle(option)}
                   >
@@ -68,24 +70,15 @@ export default function Projects({ openModal, setOpenModal }) {
               />
             );
           })}
-
-          {/* {toggle === "all" &&
-            projects.map((project) => (
-              <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
-            ))} */}
+            ))}
         </CardContainer>
       </Wrapper>
     </Container>

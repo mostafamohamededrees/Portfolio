@@ -160,213 +160,182 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+    title: "TechShop",
+    date: "May 2024",
+    description: `
+      Developed a comprehensive online store for electronic devices with search and category filtering functionalities.
+      Implemented user authentication with standard login/sign-up and Google account integration.
+      Integrated Stripe for secure payment processing, including payment intent tracking and status updates.
+      Enabled customers to view their orders and track the status (dispatch/delivered).
+      Developed a secure product rating system restricted to customers with completed orders.
+      Utilized Context API for efficient state management across the application.
+      Built an admin dashboard featuring:
+        - Order Summary: Financial overview, total orders, user counts, and a traffic sale chart for weekly sales analysis.
+        - Product Addition: Add new products with name, price, description, and images using Dropzone.
+        - Product Management: View all products with options to update stock status (in/out of stock) or delete items.
+        - Order Management: View all orders with payment statuses (paid/pending) and update delivery statuses (dispatch/delivered).
+      Displayed products in random order on the homepage with each refresh.
+      Ensured admin-only access to the dashboard for enhanced security.
+    `,
     image:
       "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
     tags: [
+      "Next.js",
       "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+      "Typescript",
+      "Context API",
+      "tailwindcss",
+      "stripe",
+      "MongoDB",
+      "react-hook-form",
+      "react-hot-toast",
+      "chart.js",
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    category: "Next.js",
+    github: "https://github.com/mostafamohamededrees/E-commerce-app",
+    webapp: "https://e-commerce-app-omega-pink.vercel.app",
   },
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+    title: "Facebook",
+    date: "Jan 2024",
+    description: `
+      Developed a social media application supporting account creation, login, and secure logout, with login status managed via local storage.
+      Post and Comment Functionality: Allows users to create, edit, and delete posts, and add comments to any post (requires login).
+      Profile Viewing: Enables viewing of all posts by any user, as well as a personal dashboard for the logged-in user.
+      Dynamic Content Loading: Utilizes pagination to load posts incrementally as users scroll.
+    `,
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
+    tags: ["Html", "Css", "JavaScript", "bootstrap", "Local Storage", "Axios"],
+    category: "JS",
+    github: "https://github.com/mostafamohamededrees/facebook-app",
+    webapp: "https://facebook-sigma-ruby.vercel.app/",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    title: "Bonik",
+    date: "Dec 2023",
+    description: `
+      Built an e-commerce website with React and Redux: Utilizes Redux Toolkit for state management and includes React Carousel and React Slick for dynamic UI components.
+      Responsive Design: Fully optimized for various screen sizes, ensuring a seamless user experience.
+      Efficient Navigation: Implements React Router DOM for smooth and intuitive navigation.
+    `,
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
+    tags: [
+      "React Js",
+      "JavaScript",
+      "Css",
+      "Redux",
+      "Redux Toolkit ",
+      "react-router-dom ",
+      "slick-carousel ",
+      "react-slick ",
+      "axios",
     ],
+    category: "React",
+    github: "https://github.com/mostafamohamededrees/commerce-app",
+    webapp: "https://commerce-app-eta.vercel.app/",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
+    title: "Memory Game",
+    date: "Nov 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed an interactive memory game to enhance cognitive skills. Players flip cards to find matching pairs within a time limit. The game features responsive design, a timer, score tracking, and smooth animations for an engaging user experience.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    tags: ["Html", "Css", "Js"],
+    category: "Js",
+    github: "https://github.com/mostafamohamededrees/meomry-game",
+    webapp: "https://meomry-game.vercel.app",
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "Hangman Game",
+    date: "Oct 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Created a classic Hangman game that challenges players to guess words by suggesting letters within a limited number of guesses. The game features an interactive interface, dynamic word generation, and visual feedback for correct and incorrect guesses.",
     image:
       "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    tags: ["Html", "Css", "JavaScript"],
+    category: "Js",
+    github: "https://github.com/mostafamohamededrees/hangman-game",
+    webapp: "https://hangman-game-ten-hazel.vercel.app",
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Quiz App",
+    date: "Sep 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "Developed an interactive Quiz app that allows users to test their knowledge on various topics. The app features multiple-choice questions, real-time score tracking, and instant feedback on answers. Users can select categories and difficulty levels for a customized quiz experience",
     image:
       "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    tags: ["Html", "Css", "JavaScript"],
+    category: "Js",
+    github: "https://github.com/mostafamohamededrees/Quiz-app",
+    webapp: "https://quiz-app-swart-eight.vercel.app",
   },
   {
     id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    title: "Bondi",
+    date: "Jun 2023",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    tags: ["Html", "Css", "JavaScript"],
+    category: "html & css",
+    github: "https://github.com/mostafamohamededrees/bondi",
+    webapp: "https://bondi-vert.vercel.app/",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Kasper",
+    date: "Jul 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Designed and developed a responsive static website featuring a clean and modern layout. The website is optimized for various screen sizes and includes visually appealing design elements, such as flexible grids, media queries, and responsive images, to enhance user experience.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    tags: ["Html", "Css", "JavaScript"],
+    category: "html & css",
+    github: "https://github.com/mostafamohamededrees/kasper-landing-page",
+    webapp: "https://kasper-landing-page.vercel.app/",
   },
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Portfolio",
+    date: "Feb 2024",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "Created a responsive portfolio website using React. The site features a modern design with Styled Components and Material UI, seamless navigation with React Router, and integrated email functionality with EmailJS.",
     image:
       "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    tags: [
+      "React",
+      "Css",
+      "JavaScript",
+      "Styled Components",
+      "Material UI",
+      "EmailJS",
+      "React-router-dom",
+    ],
+    category: "React",
+    github: "https://github.com/mostafamohamededrees/Portfolio",
+    webapp: "https://my-portfolio-phi-ruby-78.vercel.app/",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "Leon",
+    date: "Aug 2023",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
       "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    tags: ["Html", "Css", "JavaScript"],
+    category: "html & css",
+    github: "https://github.com/mostafamohamededrees/leon-static-website",
+    webapp: "https://leon-static-website.vercel.app/",
   },
 ];
 
@@ -374,8 +343,8 @@ export const contactData = [
   {
     icon: <EmailIcon />,
     title: "Email",
-    desc: "mostafaelreyadi@gmail",
-    href: "mailto:mostafaelreyadi@gmail.com",
+    desc: "mostafaedrees03@gmail.com",
+    href: "mailto:mostafaedrees03@gmail.com",
   },
   {
     icon: (

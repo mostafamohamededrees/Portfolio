@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from "./utils/theme";
+import { useState } from "react";
+import { darkTheme } from "./utils/theme";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
 import Hero from "./components/HeroSection/Hero";
@@ -13,6 +13,7 @@ import Projects from "./components/Projects/Projects";
 import Educatoin from "./components/Education/Educatoin";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import ProjectDetails from "./components/ProjectDetails";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -54,6 +55,9 @@ function App() {
             <Contact />
           </Wrapper>
           <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>
