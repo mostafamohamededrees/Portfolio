@@ -98,11 +98,6 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
     ],
   },
 ];
@@ -182,7 +177,7 @@ export const projects = [
       Ensured admin-only access to the dashboard for enhanced security.
     `,
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/TechShop.png?alt=media&token=f7b7fb02-b4f6-4112-bc4c-cc1e04dfb116",
     tags: [
       "Next.js",
       "React Js",
@@ -210,9 +205,9 @@ export const projects = [
       Dynamic Content Loading: Utilizes pagination to load posts incrementally as users scroll.
     `,
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Facebook.png?alt=media&token=6d157928-86b4-4f5f-bd39-dd94f933ec45",
     tags: ["Html", "Css", "JavaScript", "bootstrap", "Local Storage", "Axios"],
-    category: "JS",
+    category: "Js",
     github: "https://github.com/mostafamohamededrees/facebook-app",
     webapp: "https://facebook-sigma-ruby.vercel.app/",
   },
@@ -226,7 +221,7 @@ export const projects = [
       Efficient Navigation: Implements React Router DOM for smooth and intuitive navigation.
     `,
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Bonik.png?alt=media&token=a1aeced2-b608-48e3-a7b7-7142fd1fef2a",
     tags: [
       "React Js",
       "JavaScript",
@@ -249,7 +244,7 @@ export const projects = [
     description:
       "Developed an interactive memory game to enhance cognitive skills. Players flip cards to find matching pairs within a time limit. The game features responsive design, a timer, score tracking, and smooth animations for an engaging user experience.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/memory_game.png?alt=media&token=3efe535d-9f73-45e0-b217-7950a87fa352",
     tags: ["Html", "Css", "Js"],
     category: "Js",
     github: "https://github.com/mostafamohamededrees/meomry-game",
@@ -262,7 +257,7 @@ export const projects = [
     description:
       "Created a classic Hangman game that challenges players to guess words by suggesting letters within a limited number of guesses. The game features an interactive interface, dynamic word generation, and visual feedback for correct and incorrect guesses.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/hangman%20game.png?alt=media&token=1ea06085-6312-4df2-b47d-6d8b1a406118",
     tags: ["Html", "Css", "JavaScript"],
     category: "Js",
     github: "https://github.com/mostafamohamededrees/hangman-game",
@@ -275,7 +270,7 @@ export const projects = [
     description:
       "Developed an interactive Quiz app that allows users to test their knowledge on various topics. The app features multiple-choice questions, real-time score tracking, and instant feedback on answers. Users can select categories and difficulty levels for a customized quiz experience",
     image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Quiz%20app.png?alt=media&token=0c02b22a-f464-4661-b739-d3b3b307b6ec",
     tags: ["Html", "Css", "JavaScript"],
     category: "Js",
     github: "https://github.com/mostafamohamededrees/Quiz-app",
@@ -288,7 +283,7 @@ export const projects = [
     description:
       "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/bondi.png?alt=media&token=87037d4b-c1ff-43bc-b4a8-9043f1bf5bfb",
     tags: ["Html", "Css", "JavaScript"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/bondi",
@@ -301,7 +296,7 @@ export const projects = [
     description:
       "Designed and developed a responsive static website featuring a clean and modern layout. The website is optimized for various screen sizes and includes visually appealing design elements, such as flexible grids, media queries, and responsive images, to enhance user experience.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Kasper.png?alt=media&token=f05a6778-f9cf-4cd9-8c9a-a264e3309d91",
     tags: ["Html", "Css", "JavaScript"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/kasper-landing-page",
@@ -314,7 +309,7 @@ export const projects = [
     description:
       "Created a responsive portfolio website using React. The site features a modern design with Styled Components and Material UI, seamless navigation with React Router, and integrated email functionality with EmailJS.",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Portfolio.png?alt=media&token=c43fd2cc-5404-4334-828e-6fe15087d894",
     tags: [
       "React",
       "Css",
@@ -335,7 +330,7 @@ export const projects = [
     description:
       "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/landingpage.png?alt=media&token=025b1d45-11a0-4ac3-ab2e-262bf375f45d",
     tags: ["Html", "Css", "JavaScript"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/leon-static-website",
