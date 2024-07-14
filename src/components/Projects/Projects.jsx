@@ -70,7 +70,7 @@ export default function Projects({ openModal, setOpenModal }) {
               />
             );
           })}
-          {projects
+          {/* {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
@@ -78,7 +78,7 @@ export default function Projects({ openModal, setOpenModal }) {
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
-            ))}
+            ))} */}
         </CardContainer>
       </Wrapper>
     </Container>
