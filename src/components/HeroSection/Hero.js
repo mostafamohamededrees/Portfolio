@@ -43,7 +43,7 @@ export default function Hero() {
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton
-              href={Bio.resume}
+              href={"../../data/Mostafa_s_Resume.pdf"}
               download={"Mostafa's Resume"}
               target="display"
             >
