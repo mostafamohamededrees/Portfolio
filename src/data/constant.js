@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/mostafamohamededrees",
   resume:
-    "https://drive.google.com/file/d/1Cju_jti_MHhjc2pe-vS4ly6m3wpVFZKV/view?usp=drive_link",
+    "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Mostafa_s_Resume.pdf?alt=media&token=0f37a187-817d-4723-a200-b16032cf44ac",
   linkedin: "https://www.linkedin.com/in/mostafa-mohamed-asx7361/",
   insta: "https://www.instagram.com/mustafa_mohamed_edrees/",
   facebook: "https://www.facebook.com/mostafa7361",
