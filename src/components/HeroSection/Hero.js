@@ -1,5 +1,6 @@
 import React from "react";
 import HeroBgAnimation from "../HeroAnimation/HeroAnimation";
+import Mostafa_s_Resume from "../../data/Mostafa_s_Resume.pdf";
 import {
   HeroContainer,
   HeroBg,
@@ -43,9 +44,8 @@ export default function Hero() {
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton
-              href={"../../data/Mostafa_s_Resume.pdf"}
-              download={"Mostafa's Resume"}
-              target="display"
+              href={Mostafa_s_Resume}
+              download="Mostafa's Resume.pdf"
             >
               Check Resume
             </ResumeButton>
