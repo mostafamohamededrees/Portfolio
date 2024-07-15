@@ -175,20 +175,29 @@ export const projects = [
         - Order Management: View all orders with payment statuses (paid/pending) and update delivery statuses (dispatch/delivered).
       Displayed products in random order on the homepage with each refresh.
       Ensured admin-only access to the dashboard for enhanced security.
+      
+      If you'd like to try the admin dashboard, you can use the following credentials:
+      Email: admin@gmail.com
+      Password: Admin7361
     `,
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/TechShop.png?alt=media&token=f7b7fb02-b4f6-4112-bc4c-cc1e04dfb116",
     tags: [
-      "Next.js",
+      "Next.Js",
       "React Js",
       "Typescript",
       "Context API",
       "tailwindcss",
+      "Material UI",
+      "Axios",
       "stripe",
-      "MongoDB",
       "react-hook-form",
+      "react-dropzone",
       "react-hot-toast",
       "chart.js",
+      "Firebase",
+      "Node Js",
+      "MongoDB",
     ],
     category: "Next.js",
     github: "https://github.com/mostafamohamededrees/E-commerce-app",
@@ -231,7 +240,7 @@ export const projects = [
       "react-router-dom ",
       "slick-carousel ",
       "react-slick ",
-      "axios",
+      "Axios",
     ],
     category: "React",
     github: "https://github.com/mostafamohamededrees/commerce-app",
