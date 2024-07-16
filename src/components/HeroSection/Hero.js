@@ -1,6 +1,6 @@
 import React from "react";
 import HeroBgAnimation from "../HeroAnimation/HeroAnimation";
-import Mostafa_s_Resume from "../../data/Mostafa's Resume.pdf";
+import Mostafa_s_Resume from "../../data/Resume.pdf";
 import {
   HeroContainer,
   HeroBg,
