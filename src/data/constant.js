@@ -247,6 +247,27 @@ export const projects = [
     webapp: "https://commerce-app-eta.vercel.app/",
   },
   {
+    id: 5,
+    title: "Portfolio",
+    date: "Feb 2024",
+    description:
+      "Created a responsive portfolio website using React. The site features a modern design with Styled Components and Material UI, seamless navigation with React Router, and integrated email functionality with EmailJS.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Portfolio.png?alt=media&token=c43fd2cc-5404-4334-828e-6fe15087d894",
+    tags: [
+      "React",
+      "Css",
+      "JavaScript",
+      "Styled Components",
+      "Material UI",
+      "EmailJS",
+      "React-router-dom",
+    ],
+    category: "React",
+    github: "https://github.com/mostafamohamededrees/Portfolio",
+    webapp: "https://my-portfolio-phi-ruby-78.vercel.app/",
+  },
+  {
     id: 1,
     title: "Memory Game",
     date: "Nov 2023",
@@ -293,7 +314,7 @@ export const projects = [
       "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/bondi.png?alt=media&token=87037d4b-c1ff-43bc-b4a8-9043f1bf5bfb",
-    tags: ["Html", "Css", "JavaScript"],
+    tags: ["Html", "Css"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/bondi",
     webapp: "https://bondi-vert.vercel.app/",
@@ -306,32 +327,12 @@ export const projects = [
       "Designed and developed a responsive static website featuring a clean and modern layout. The website is optimized for various screen sizes and includes visually appealing design elements, such as flexible grids, media queries, and responsive images, to enhance user experience.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Kasper.png?alt=media&token=f05a6778-f9cf-4cd9-8c9a-a264e3309d91",
-    tags: ["Html", "Css", "JavaScript"],
+    tags: ["Html", "Css"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/kasper-landing-page",
     webapp: "https://kasper-landing-page.vercel.app/",
   },
-  {
-    id: 5,
-    title: "Portfolio",
-    date: "Feb 2024",
-    description:
-      "Created a responsive portfolio website using React. The site features a modern design with Styled Components and Material UI, seamless navigation with React Router, and integrated email functionality with EmailJS.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Portfolio.png?alt=media&token=c43fd2cc-5404-4334-828e-6fe15087d894",
-    tags: [
-      "React",
-      "Css",
-      "JavaScript",
-      "Styled Components",
-      "Material UI",
-      "EmailJS",
-      "React-router-dom",
-    ],
-    category: "React",
-    github: "https://github.com/mostafamohamededrees/Portfolio",
-    webapp: "https://my-portfolio-phi-ruby-78.vercel.app/",
-  },
+
   {
     id: 6,
     title: "Leon",
@@ -340,7 +341,7 @@ export const projects = [
       "Designed and developed a responsive static website using HTML and CSS. The website features a clean and modern layout, optimized for various screen sizes, and includes visually appealing design elements.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/landingpage.png?alt=media&token=025b1d45-11a0-4ac3-ab2e-262bf375f45d",
-    tags: ["Html", "Css", "JavaScript"],
+    tags: ["Html", "Css"],
     category: "html & css",
     github: "https://github.com/mostafamohamededrees/leon-static-website",
     webapp: "https://leon-static-website.vercel.app/",
