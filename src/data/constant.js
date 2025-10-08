@@ -9,8 +9,8 @@ export const Bio = {
   github: "https://github.com/mostafamohamededrees",
   resume:
     "https://firebasestorage.googleapis.com/v0/b/my-portfolio-63add.appspot.com/o/Mostafa_s_Resume.pdf?alt=media&token=0f37a187-817d-4723-a200-b16032cf44ac",
-  linkedin: "https://www.linkedin.com/in/mostafa-mohamed-asx7361/",
-  insta: "https://www.instagram.com/mustafa_mohamed_edrees/",
+  linkedin: "https://www.linkedin.com/in/mus-tafaa-/",
+  insta: "https://www.instagram.com/mus.tafaa__/",
   facebook: "https://www.facebook.com/mostafa7361",
 };
 
@@ -136,24 +136,6 @@ export const education = [
     desc: "I am currently pursuing a Bachelor's degree in Computer Science at Faculty Of Science Azhar_University , Cairo . I have successfully completed five semesters with a very good grade, during which we have covered a diverse range of courses in programming and related fields.",
     degree: "Bachelor of Computer Science",
   },
-  // {
-  //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2019 - Apr 2025",
-  //   grade: "88.2%",
-  //   desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-  //   degree: "ISC(XII), Science with Computer",
-  // },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2017 - Apr 2019",
-  //   grade: "92.3%",
-  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-  //   degree: "ICSC(X), Science with Computer",
-  // },
 ];
 
 export const projects = [
@@ -378,10 +360,4 @@ export const contactData = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+
